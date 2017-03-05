@@ -1,0 +1,15 @@
+{
+  "name": "generator-web-starter2",
+  "version": "2.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/fafnirical/generator-web-starter2#readme",
+  "bugs": {
+    "url": "https://github.com/fafnirical/generator-web-starter2/issues"
+  },
+  "license": "GPL-2.0",
+  "author": "Wade Burelbach (https://github.com/fafnirical)",
+  "repository": "https://github.com/fafnirical/generator-web-starter2.git"
+}
