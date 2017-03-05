@@ -11,5 +11,17 @@
   },
   "license": "GPL-2.0",
   "author": "Wade Burelbach (https://github.com/fafnirical)",
-  "repository": "https://github.com/fafnirical/generator-web-starter2.git"
+  "repository": "https://github.com/fafnirical/generator-web-starter2.git",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  }
 }
