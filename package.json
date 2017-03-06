@@ -13,7 +13,9 @@
   "author": "Wade Burelbach (https://github.com/fafnirical)",
   "repository": "https://github.com/fafnirical/generator-web-starter2.git",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "lint": "npm run lint:js",
+    "lint:js": "eslint ."
   },
   "config": {
     "commitizen": {
@@ -22,6 +24,11 @@
   },
   "devDependencies": {
     "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0"
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
   }
 }
